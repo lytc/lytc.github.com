@@ -1,69 +1,98 @@
 <!DOCTYPE html>
 <html>
 
-  <head>
-    <meta charset='utf-8' />
-    <meta http-equiv="X-UA-Compatible" content="chrome=1" />
-    <meta name="description" content="lytc.github.com : lytc page" />
+<head>
+    <meta charset='utf-8'/>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1"/>
+    <meta name="description" content="lytc.github.com : lytc page"/>
 
     <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
 
     <title>lytc.github.com</title>
-  </head>
+</head>
 
-  <body>
+<body>
+<script type="text/template" id="repo-template">
+    <li>
+        <h4><a href="<%= homepage %>"><%= name %></a></h4>
+        <h6><%= language %> - Creator & Owner</h6>
+        <span class="created-at"><%= created_at %></span>
+        <p><%= description %></p>
+    </li>
+</script>
+<!-- HEADER -->
+<div id="header_wrap" class="outer">
+    <header class="inner">
+        <a id="forkme_banner" href="https://github.com/lytc">View on GitHub</a>
 
-    <!-- HEADER -->
-    <div id="header_wrap" class="outer">
-        <header class="inner">
-          <a id="forkme_banner" href="https://github.com/lytc">View on GitHub</a>
+        <h1 id="project_title">Ly Tran</h1>
 
-          <h1 id="project_title">lytc.github.com</h1>
-          <h2 id="project_tagline">lytc page</h2>
+    </header>
+</div>
 
-        </header>
-    </div>
+<!-- MAIN CONTENT -->
+<div id="main_content_wrap" class="outer">
+    <section id="main_content" class="inner">
+        <h3>About me</h3>
+        <p>My name is <b>Ly Tran</b>, but you'll mostly meet me as <b>lytc</b> on the internet and I am a web developer lining in Ho Chi Minh - Vietnam.</p>
+        <p>My main area of interest is web development in PHP and Javascript. I also like to work around in Ruby and HTML5.</p>
+        <p>Currently, I'm working at <a href="http://digication.com">Digication, Inc</a>. Digication is a US-based company in the field of educational software development with more than 4,000 schools use Digication's e-Portfolios tool.</p>
+        <p>You can contact me at <a href="mailto:prtran@gmail.com">prtran@gmail.com</a></p>
 
-    <!-- MAIN CONTENT -->
-    <div id="main_content_wrap" class="outer">
-      <section id="main_content" class="inner">
-        <h3>Welcome to GitHub Pages.</h3>
+        <hr class="separator">
 
-<p>This automatic page generator is the easiest way to create beautiful pages for all of your projects. Author your page content here using GitHub Flavored Markdown, select a template crafted by a designer, and publish. After your page is generated, you can check out the new branch:</p>
+        <h3>I'm using</h3>
+        <p>
+            <ul id="things-using">
+                <li><a href="http://php.net/">PHP</a></li>
+                <li><a href="http://www.ruby-lang.org/en/">Ruby</a></li>
+                <li><a href="http://www.mysql.com/">MySQL</a></li>
+                <li><a href="http://www.ecmascript.org/">Javascript</a></li>
+                <li><a href="http://www.w3.org/Style/CSS/Overview.en.html">CSS</a></li>
+                <li><a href="http://www.w3.org/TR/2011/WD-html5-20110525/">HTML5</a></li>
+                <li><a href="http://framework.zend.com/">Zend Framework</a></li>
+                <li><a href="http://rubyonrails.org/">Ruby On Rails</a></li>
+                <li><a href="http://www.sinatrarb.com/">Sinatra</a></li>
+                <li><a href="http://jquery.com/">jQuery</a></li>
+                <li><a href="http://www.sencha.com/products/extjs/">Extjs</a></li>
+                <li><a href="http://mootools.net/">Mootools</a></li>
+                <li><a href="http://prototypejs.org/">Prototype.js</a></li>
+                <li><a href="http://backbonejs.org/">Backbone.js</a></li>
+                <li><a href="http://underscorejs.org/">Underscore.js</a></li>
+                <li><a href="http://spinejs.com/">Spine.js</a></li>
+                <li><a href="http://coffeescript.org/">CoffeeScript</a></li>
+                <li><a href="http://sass-lang.com/">SASS/SCSS</a></li>
+                <li><a href="http://twitter.github.com/bootstrap/">Twitter Bootstrap</a></li>
+                <li><a href="http://960.gs/">960.gs</a></li>
+                <li><a href="http://lesscss.org/">LESS</a></li>
+                <li><a href="http://learnboost.github.com/stylus/">Stylus</a></li>
+                <li><a href="http://git-scm.com/">git</a></li>
+                <li><a href="http://subversion.apache.org/">SVN</a></li>
+                <li><a href="http://httpd.apache.org/">Apache</a></li>
+                <li><a href="http://www.phpunit.de/manual/current/en/index.html">PHPUnit</a></li>
+                <li><a href="http://pivotal.github.com/jasmine/">Jasmine</a></li>
+            </ul>
+        </p>
 
-<pre><code>$ cd your_repo_root/repo_name
-$ git fetch origin
-$ git checkout gh-pages
-</code></pre>
+        <hr class="separator">
 
-<p>If you're using the GitHub for Mac, simply sync your repository and you'll see the new branch.</p>
+        <h3>Open Source Projects</h3>
+        <ul id="repos">
 
-<h3>Designer Templates</h3>
+        </ul>
+    </section>
+</div>
 
-<p>We've crafted some handsome templates for you to use. Go ahead and continue to layouts to browse through them. You can easily go back to edit your page before publishing. After publishing your page, you can revisit the page generator and switch to another theme. Your Page content will be preserved if it remained markdown format.</p>
-
-<h3>Rather Drive Stick?</h3>
-
-<p>If you prefer to not use the automatic generator, push a branch named <code>gh-pages</code> to your repository to create a page manually. In addition to supporting regular HTML content, GitHub Pages support Jekyll, a simple, blog aware static site generator written by our own Tom Preston-Werner. Jekyll makes it easy to create site-wide headers and footers without having to copy them across every page. It also offers intelligent blog support and other advanced templating features.</p>
-
-<h3>Authors and Contributors</h3>
-
-<p>You can <a href="https://github.com/blog/821" class="user-mention">@mention</a> a GitHub username to generate a link to their profile. The resulting <code>&lt;a&gt;</code> element will link to the contributor's GitHub Profile. For example: In 2007, Chris Wanstrath (<a href="https://github.com/defunkt" class="user-mention">@defunkt</a>), PJ Hyett (<a href="https://github.com/pjhyett" class="user-mention">@pjhyett</a>), and Tom Preston-Werner (<a href="https://github.com/mojombo" class="user-mention">@mojombo</a>) founded GitHub.</p>
-
-<h3>Support or Contact</h3>
-
-<p>Having trouble with Pages? Check out the documentation at <a href="http://help.github.com/pages">http://help.github.com/pages</a> or contact <a href="mailto:support@github.com">support@github.com</a> and we’ll help you sort it out.</p>
-      </section>
-    </div>
-
-    <!-- FOOTER  -->
-    <div id="footer_wrap" class="outer">
-      <footer class="inner">
+<!-- FOOTER  -->
+<div id="footer_wrap" class="outer">
+    <footer class="inner">
         <p>Published with <a href="http://pages.github.com">GitHub Pages</a></p>
-      </footer>
-    </div>
+    </footer>
+</div>
 
-    
 
-  </body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.1/jquery.min.js"></script>
+<script src="https://raw.github.com/documentcloud/underscore/master/underscore-min.js"></script>
+<script src="javascripts/main.js"></script>
+</body>
 </html>
