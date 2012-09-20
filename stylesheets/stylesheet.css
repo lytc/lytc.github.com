@@ -392,6 +392,10 @@ Full-Width Styles
     border-bottom: 1px solid #e9e9e9;
 }
 
+#repos .name {
+    text-transform:capitalize
+}
+
 #repos .created-at {
     position: absolute;
     top: 0;
