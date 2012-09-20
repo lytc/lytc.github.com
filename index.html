@@ -17,6 +17,7 @@
         <h4 class="name"><a href="<%= homepage? homepage : html_url %>"><%= name %></a></h4>
         <h6><%= language %> - Creator & Owner</h6>
         <span class="created-at"><%= created_at %></span>
+
         <p><%= description %></p>
     </li>
 </script>
@@ -34,53 +35,61 @@
 <div id="main_content_wrap" class="outer">
     <section id="main_content" class="inner">
         <h3>About me</h3>
-        <p>My name is <b>Ly Tran</b>, but you'll mostly meet me as <b>lytc</b> on the internet and I am a web developer living in Ho Chi Minh - Vietnam.</p>
-        <p>My main area of interest is web development in PHP and Javascript. I also like to work around in Ruby and HTML5.</p>
-        <p>Currently, I'm working at <a href="http://digication.com">Digication, Inc</a>. Digication is a US-based company in the field of educational software development with more than 4,000 schools use Digication's e-Portfolios tool.</p>
+
+        <p>My name is <b>Ly Tran</b>, but you'll mostly meet me as <b>lytc</b> on the internet and I am a web developer
+            living in Ho Chi Minh - Vietnam.</p>
+
+        <p>My main area of interest is web development in PHP and Javascript. I also like to work around in Ruby and
+            HTML5.</p>
+
+        <p>Currently, I'm working at <a href="http://digication.com">Digication, Inc</a>. Digication is a US-based
+            company in the field of educational software development with more than 4,000 schools use Digication's
+            e-Portfolios tool.</p>
+
         <p>You can contact me at <a href="mailto:prtran@gmail.com">prtran@gmail.com</a></p>
+
         <p class="socials">
-            <a href="http://www.facebook.com/lytranc"><img src="images/facebook.png"></a>
-            <a href="https://plus.google.com/117225940243170641212"><img src="images/google-plus.png"></a>
-            <a href="https://twitter.com/tcl_java"><img src="images/twitter.png"></a>
-            <a href="http://linkedin.com/in/trancongly"><img src="images/linkedin.png"></a>
+            <a href="http://www.facebook.com/lytranc"><img src="images/facebook.png" alt="facebook"></a>
+            <a href="https://plus.google.com/117225940243170641212"><img src="images/google-plus.png" alt="google plus"></a>
+            <a href="https://twitter.com/tcl_java"><img src="images/twitter.png" alt="twitter"></a>
+            <a href="http://linkedin.com/in/trancongly"><img src="images/linkedin.png" alt="linkedin"></a>
         </p>
         <hr class="separator">
 
         <h3>I'm using</h3>
-        <p>
-            <ul id="things-using">
-                <li><a href="http://php.net/">PHP</a></li>
-                <li><a href="http://www.ruby-lang.org/en/">Ruby</a></li>
-                <li><a href="http://www.mysql.com/">MySQL</a></li>
-                <li><a href="http://www.ecmascript.org/">Javascript</a></li>
-                <li><a href="http://www.w3.org/Style/CSS/Overview.en.html">CSS</a></li>
-                <li><a href="http://www.w3.org/TR/2011/WD-html5-20110525/">HTML5</a></li>
-                <li><a href="http://framework.zend.com/">Zend Framework</a></li>
-                <li><a href="http://rubyonrails.org/">Ruby On Rails</a></li>
-                <li><a href="http://www.sinatrarb.com/">Sinatra</a></li>
-                <li><a href="http://www.phpactiverecord.org/">PHP Activerecord</a></li>
-                <li><a href="http://www.doctrine-project.org/projects/orm.html">Doctrine ORM</a></li>
-                <li><a href="http://www.propelorm.org/">Propel ORM</a></li>
-                <li><a href="http://jquery.com/">jQuery</a></li>
-                <li><a href="http://www.sencha.com/products/extjs/">Extjs</a></li>
-                <li><a href="http://mootools.net/">Mootools</a></li>
-                <li><a href="http://prototypejs.org/">Prototype.js</a></li>
-                <li><a href="http://backbonejs.org/">Backbone.js</a></li>
-                <li><a href="http://underscorejs.org/">Underscore.js</a></li>
-                <li><a href="http://spinejs.com/">Spine.js</a></li>
-                <li><a href="http://coffeescript.org/">CoffeeScript</a></li>
-                <li><a href="http://sass-lang.com/">SASS/SCSS</a></li>
-                <li><a href="http://twitter.github.com/bootstrap/">Twitter Bootstrap</a></li>
-                <li><a href="http://960.gs/">960.gs</a></li>
-                <li><a href="http://lesscss.org/">LESS</a></li>
-                <li><a href="http://learnboost.github.com/stylus/">Stylus</a></li>
-                <li><a href="http://git-scm.com/">git</a></li>
-                <li><a href="http://subversion.apache.org/">SVN</a></li>
-                <li><a href="http://httpd.apache.org/">Apache</a></li>
-                <li><a href="http://www.phpunit.de/manual/current/en/index.html">PHPUnit</a></li>
-                <li><a href="http://pivotal.github.com/jasmine/">Jasmine</a></li>
-            </ul>
-        </p>
+
+        <ul id="things-using">
+            <li><a href="http://php.net/">PHP</a></li>
+            <li><a href="http://www.ruby-lang.org/en/">Ruby</a></li>
+            <li><a href="http://www.mysql.com/">MySQL</a></li>
+            <li><a href="http://www.ecmascript.org/">Javascript</a></li>
+            <li><a href="http://www.w3.org/Style/CSS/Overview.en.html">CSS</a></li>
+            <li><a href="http://www.w3.org/TR/2011/WD-html5-20110525/">HTML5</a></li>
+            <li><a href="http://framework.zend.com/">Zend Framework</a></li>
+            <li><a href="http://rubyonrails.org/">Ruby On Rails</a></li>
+            <li><a href="http://www.sinatrarb.com/">Sinatra</a></li>
+            <li><a href="http://www.phpactiverecord.org/">PHP Activerecord</a></li>
+            <li><a href="http://www.doctrine-project.org/projects/orm.html">Doctrine ORM</a></li>
+            <li><a href="http://www.propelorm.org/">Propel ORM</a></li>
+            <li><a href="http://jquery.com/">jQuery</a></li>
+            <li><a href="http://www.sencha.com/products/extjs/">Extjs</a></li>
+            <li><a href="http://mootools.net/">Mootools</a></li>
+            <li><a href="http://prototypejs.org/">Prototype.js</a></li>
+            <li><a href="http://backbonejs.org/">Backbone.js</a></li>
+            <li><a href="http://underscorejs.org/">Underscore.js</a></li>
+            <li><a href="http://spinejs.com/">Spine.js</a></li>
+            <li><a href="http://coffeescript.org/">CoffeeScript</a></li>
+            <li><a href="http://sass-lang.com/">SASS/SCSS</a></li>
+            <li><a href="http://twitter.github.com/bootstrap/">Twitter Bootstrap</a></li>
+            <li><a href="http://960.gs/">960.gs</a></li>
+            <li><a href="http://lesscss.org/">LESS</a></li>
+            <li><a href="http://learnboost.github.com/stylus/">Stylus</a></li>
+            <li><a href="http://git-scm.com/">git</a></li>
+            <li><a href="http://subversion.apache.org/">SVN</a></li>
+            <li><a href="http://httpd.apache.org/">Apache</a></li>
+            <li><a href="http://www.phpunit.de/manual/current/en/index.html">PHPUnit</a></li>
+            <li><a href="http://pivotal.github.com/jasmine/">Jasmine</a></li>
+        </ul>
 
         <hr class="separator">
 
