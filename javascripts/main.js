@@ -1,6 +1,6 @@
 $(function() {
     var reposEl = $('#repos')
-        ,repos = ['quark', 'Neutrino', 'one']
+        ,repos = ['quark', 'Neutrino', 'one', 'x-bootstrap']
         ,template = _.template($('#repo-template').html())
 
     $.each(repos, function() {
