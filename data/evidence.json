@@ -1,0 +1,67 @@
+{
+  "collected": "2026-10-10",
+  "account": "lytc",
+  "public_product_sources": [
+    {
+      "name": "Digication AI",
+      "url": "https://www.digication.com/learning-platform/ai",
+      "scope": "Public product capabilities, not individual attribution."
+    },
+    {
+      "name": "Digication ePortfolio",
+      "url": "https://www.digication.com/learning-platform/eportfolio",
+      "scope": "Public product capabilities, not individual attribution."
+    },
+    {
+      "name": "Digication Assessment",
+      "url": "https://www.digication.com/learning-platform/assessment",
+      "scope": "Public product capabilities, not individual attribution."
+    },
+    {
+      "name": "Digication integrations",
+      "url": "https://www.digication.com/community/integrations",
+      "scope": "Public integration capabilities, not individual attribution."
+    },
+    {
+      "name": "OAIR",
+      "url": "https://oair.org/",
+      "scope": "Public product."
+    }
+  ],
+  "selected_upstream": [
+    {
+      "repository": "elastic/apm-agent-nodejs",
+      "number": 4098,
+      "title": "fix: add missing methods to noop-transaction",
+      "author": "lytc",
+      "merged_at": "2024-07-23T20:36:04Z",
+      "url": "https://github.com/elastic/apm-agent-nodejs/pull/4098",
+      "kind": "Code"
+    },
+    {
+      "repository": "xnimorz/use-debounce",
+      "number": 66,
+      "title": "Fix typing to infer correct callback type",
+      "author": "lytc",
+      "merged_at": "2020-09-28T21:01:51Z",
+      "url": "https://github.com/xnimorz/use-debounce/pull/66",
+      "kind": "Code"
+    },
+    {
+      "repository": "aws/aws-sdk-js",
+      "number": 1030,
+      "title": "getRtmpUrl should not append hash if it's null",
+      "author": "lytc",
+      "merged_at": "2016-06-24T19:34:57Z",
+      "url": "https://github.com/aws/aws-sdk-js/pull/1030",
+      "kind": "Code"
+    }
+  ],
+  "method": "Public product pages corroborate capabilities. Personal contribution and stack descriptions were checked against private package manifests and authored implementation history; no private source is published. Selected earlier upstream PRs were checked individually for author lytc and merged state. These are secondary evidence, not a current-project list.",
+  "chronology": {
+    "product_work_from": "2011-03",
+    "typescript_backend_from": "2016-02",
+    "react_frontend_from": "2016-08",
+    "method": "Earliest attributable contributions in git, cross-checked through GitHub account linkage. Current title: Senior Engineer."
+  }
+}

@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://lytc.github.io/sitemap.xml

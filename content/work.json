@@ -1,0 +1,438 @@
+[
+  {
+    "slug": "ai-products",
+    "number": "01",
+    "category": "AI product engineering",
+    "title": "AI that belongs inside the product.",
+    "short_title": "Digication AI & OAIR.",
+    "summary": "AI assistants for learning, a shared backend foundation, and the interfaces that connect them to real coursework.",
+    "period": "Selected work · 2024–present",
+    "role": "Full-stack contributor & shared-package builder",
+    "scope": "Digication AI · Open AI Resources (OAIR)",
+    "tags": [
+      "TypeScript",
+      "React",
+      "GraphQL",
+      "AI SDKs",
+      "Node.js"
+    ],
+    "intro": "My AI work includes the product itself: assistants and conversations used in learning workflows, shared backend capabilities, and a React application for discovering and working with educational AI resources.",
+    "sections": [
+      {
+        "heading": "The product",
+        "paragraphs": [
+          "Digication lets educators configure AI assistants for assignments and reflection. OAIR is its public hub for educational AI resources. My contribution spans the interfaces, APIs, and shared code that connect those experiences."
+        ]
+      },
+      {
+        "heading": "What I built and contributed",
+        "paragraphs": [
+          "I contributed early AI assistant interfaces, work connecting OAIR assistants to Digication, and subsequent frontend and API changes. This includes assistant interactions, typed data access, and integration with the surrounding learning product.",
+          "I also built out a shared AI backend package by extracting and extending common assistant capabilities. The work includes shared representations of assistants, threads, messages, and runs, so related applications can use a common foundation."
+        ]
+      },
+      {
+        "heading": "The engineering shape",
+        "paragraphs": [
+          "The stack combines TypeScript, React, GraphQL, and Node.js with model-provider SDKs. My work crosses product UI, service behavior, and the reusable layer beneath them.",
+          "The important engineering task is connecting model output to a usable product: maintaining conversation state, fitting the surrounding workflow, and handling the application behavior beyond a single model request."
+        ]
+      },
+      {
+        "heading": "My contribution in context",
+        "paragraphs": [
+          "This is shared product development, with my role in implementation and integration. Educational design, product direction, and other engineering work also come from colleagues. I do not claim authorship of the pedagogy or a measured improvement in learning outcomes.",
+          "Much of my recent implementation work is AI-assisted. The technical decisions, review, and responsibility for my submitted changes remain with me."
+        ]
+      }
+    ],
+    "outcomes": [
+      "Contributed AI assistant interfaces and product integrations",
+      "Built out a reusable AI backend package",
+      "Connected work across OAIR and Digication",
+      "Evolved typed frontend and API contracts"
+    ],
+    "evidence": "Package manifests, implementation history, and selected authored changes were checked in October 2026. Public product pages corroborate the product capabilities; they do not independently establish individual authorship. Company source and internal records remain private.",
+    "links": [
+      {
+        "label": "Digication AI — public product overview",
+        "url": "https://www.digication.com/learning-platform/ai"
+      },
+      {
+        "label": "OAIR — public product",
+        "url": "https://oair.org/"
+      }
+    ],
+    "takeaway": "The model is one part of the system. The product experience is the engineering work around it."
+  },
+  {
+    "slug": "product-engineering",
+    "number": "02",
+    "category": "Learning products",
+    "title": "The learning experience, from authoring to delivery.",
+    "short_title": "Kora, ePortfolios & content workflows.",
+    "summary": "Core product work across ePortfolio authoring, course experiences, reusable content, and the services behind them.",
+    "period": "Contribution history · 2011–present",
+    "role": "Full-stack builder & long-term product contributor",
+    "scope": "Digication Kora · ePortfolios · content workflows",
+    "tags": [
+      "TypeScript",
+      "React",
+      "GraphQL",
+      "Node.js",
+      "MySQL"
+    ],
+    "intro": "I build and evolve the applications that let people create, organize, share, and work with learning content. At Digication, that has meant sustained work across the frontend, backend, and reusable product components.",
+    "sections": [
+      {
+        "heading": "What the product makes possible",
+        "paragraphs": [
+          "Digication’s ePortfolio product supports multimedia authoring, templates, sharing, and feedback. Kora connects learning work with courses and assignments. These are connected experiences supported by several applications and services."
+        ]
+      },
+      {
+        "heading": "My contribution",
+        "paragraphs": [
+          "I have been a major contributor to the React frontend and backend over the product’s history. My work includes ePortfolio and course interfaces, content workflows, file management, and the API behavior those experiences depend on.",
+          "I built the initial content-repository application and continued working on its behavior and integration with the wider frontend. I also contributed to shared UI and data-access packages used across the product."
+        ]
+      },
+      {
+        "heading": "Engineering across the boundary",
+        "paragraphs": [
+          "The work connects interactive React interfaces to typed GraphQL clients, service logic, relational data, and deployment. It includes developing new behavior and helping existing features move to newer services.",
+          "My contribution history starts in March 2011. TypeScript backend and React frontend work date from 2016; those are the center of how I build today. Earlier PHP work provides context for the legacy systems I have helped modernize."
+        ]
+      },
+      {
+        "heading": "A long-term responsibility",
+        "paragraphs": [
+          "A product accumulates both capabilities and decisions. I work on the new feature and the surrounding contracts: how data is represented, how the interface uses it, and how changes fit into the existing application. Colleagues share in designing, implementing, reviewing, and operating the product."
+        ]
+      }
+    ],
+    "outcomes": [
+      "Built and evolved core learning-product interfaces and APIs",
+      "Built the initial content-repository application",
+      "Contributed reusable UI and typed data-access packages",
+      "Connected feature work with service migration and delivery"
+    ],
+    "evidence": "Chronology and attribution were checked against private git history and GitHub account linkage in October 2026. First attributable contributions establish the dates used here. Internal volume, traffic, customer data, and source code are not included.",
+    "links": [
+      {
+        "label": "Digication ePortfolio — public product overview",
+        "url": "https://www.digication.com/learning-platform/eportfolio"
+      }
+    ],
+    "takeaway": "Long-term product work connects what a user sees to everything that makes it work."
+  },
+  {
+    "slug": "assessment",
+    "number": "03",
+    "category": "Assessment & reporting",
+    "title": "From learning evidence to a usable assessment workflow.",
+    "short_title": "Program Assessment & reporting.",
+    "summary": "Application foundations, typed APIs, assessment interfaces, and asynchronous report-export work.",
+    "period": "Selected work · 2020–present",
+    "role": "Backend foundation builder & full-stack contributor",
+    "scope": "Digication Program Assessment",
+    "tags": [
+      "TypeScript",
+      "GraphQL",
+      "React",
+      "MySQL",
+      "Background jobs"
+    ],
+    "intro": "Assessment is a connected workflow: collect learning evidence, work with outcomes and rubrics, review submissions, and use the results. My work includes the application foundation and the software that supports those steps.",
+    "sections": [
+      {
+        "heading": "The product",
+        "paragraphs": [
+          "Digication’s assessment tools connect student work to learning outcomes, rubrics, reviewer workflows, and reporting. These product capabilities are documented publicly by Digication."
+        ]
+      },
+      {
+        "heading": "From the application foundation",
+        "paragraphs": [
+          "I built the initial assessment API application foundation and contributed to its development over time. That work spans TypeScript service structure, GraphQL APIs, data access, and integration with the surrounding product.",
+          "On the frontend, I have contributed to the assessment client package and learning-content interfaces that consume those APIs. This is full-stack work across a shared product, rather than sole ownership of every assessment feature."
+        ]
+      },
+      {
+        "heading": "Reporting as product work",
+        "paragraphs": [
+          "A recent contribution moved AI chat-report export into the assessment service’s asynchronous export framework. The implementation included API work, background-job orchestration, and tests.",
+          "This connects a user-visible reporting capability to the service behavior needed to deliver it. The claim here is the delivered implementation; no export-speed or throughput improvement is asserted."
+        ]
+      },
+      {
+        "heading": "What I bring to this kind of system",
+        "paragraphs": [
+          "I work across the domain model, the API contract, and the interface. The goal is to make a workflow coherent end to end, including the less visible work that gets data into and out of the product."
+        ]
+      }
+    ],
+    "outcomes": [
+      "Built the initial assessment API application foundation",
+      "Contributed typed APIs and frontend data access",
+      "Implemented an asynchronous AI chat-report export change",
+      "Added tests around export orchestration"
+    ],
+    "evidence": "Initial application history and subsequent package changes, including report-export implementation and tests, were inspected in October 2026. Public product documentation establishes the assessment capabilities, while contribution attribution is based on private history.",
+    "links": [
+      {
+        "label": "Digication Assessment — public product overview",
+        "url": "https://www.digication.com/learning-platform/assessment"
+      }
+    ],
+    "takeaway": "A reporting feature is also an API, a data model, and a delivery workflow."
+  },
+  {
+    "slug": "services-packages",
+    "number": "04",
+    "category": "Services & reusable packages",
+    "title": "Build the pieces that let products work together.",
+    "short_title": "Product services & shared packages.",
+    "summary": "Notifications, file management, conversations, data imports, LMS integration, and the shared code used across applications.",
+    "period": "Ongoing product & platform work",
+    "role": "Builder, migration contributor & package maintainer",
+    "scope": "Backend services · shared frontend and backend packages",
+    "tags": [
+      "TypeScript",
+      "Node.js",
+      "React",
+      "AWS",
+      "Jest",
+      "LTI"
+    ],
+    "intro": "The visible product depends on services and packages that are useful across many features. I build and evolve these foundations alongside the applications that use them.",
+    "sections": [
+      {
+        "heading": "Services behind the experience",
+        "paragraphs": [
+          "My work includes notifications, file management, conversations, and content-library services. It ranges from original application foundations in some services to ongoing feature work, API changes, local development setup, and migration in others.",
+          "I built the initial notifications application foundation and contributed to its frontend and backend evolution. I also helped migrate notifications, conversations, and library services into the shared backend workspace."
+        ]
+      },
+      {
+        "heading": "Imports and integrations",
+        "paragraphs": [
+          "I have contributed to the CSV import packages that coordinate parsing and processing, and to LTI integration work connecting Digication with learning management systems. These are product capabilities for getting institutional data and workflows into the application.",
+          "The implementation work includes typed interfaces, service integration, and tests. A recent LTI contribution added configurable user-update behavior and corresponding test coverage."
+        ]
+      },
+      {
+        "heading": "Reusable product packages",
+        "paragraphs": [
+          "On the frontend, my work includes shared React UI, content components, and typed API client packages. On the backend, it includes common GraphQL utilities, data-access helpers, and the shared AI package.",
+          "I have also worked on test utilities and the integration of Jest matchers and an extended SQS client into the current workspace. My contribution varies by package: implementation, adaptation, testing, or maintenance; inclusion here does not imply I originally created every dependency."
+        ]
+      },
+      {
+        "heading": "Why this work matters",
+        "paragraphs": [
+          "A package gives related applications a common place for behavior and contracts. I work on both sides of that boundary: the reusable capability and the real product that consumes it. That keeps package work connected to a concrete use case."
+        ]
+      }
+    ],
+    "outcomes": [
+      "Built and evolved notification and file-management capabilities",
+      "Contributed service migrations and development setup",
+      "Worked on CSV import and LMS integration packages",
+      "Contributed shared UI, API clients, backend helpers, and testing tools"
+    ],
+    "evidence": "Package manifests, source structure, and authored implementation history were inspected in October 2026. Package existence alone was not treated as evidence of authorship. Descriptions summarize responsibilities without publishing internal code, configuration, or operational data.",
+    "links": [
+      {
+        "label": "Digication integrations — public capabilities",
+        "url": "https://www.digication.com/community/integrations"
+      },
+      {
+        "label": "AI product work and the shared AI package",
+        "url": "/work/ai-products.html"
+      }
+    ],
+    "takeaway": "Reusable code earns its place by serving a real product need."
+  },
+  {
+    "slug": "modernization",
+    "number": "05",
+    "category": "Architecture & technical leadership",
+    "title": "Changing the foundations while the product moves.",
+    "short_title": "From separate systems to shared foundations.",
+    "summary": "Advocating legacy replacement, consolidating repositories, and helping move services toward serverless infrastructure.",
+    "period": "Selected changes · 2019–2024",
+    "role": "Advocate, implementer & migration contributor",
+    "scope": "Legacy modernization · monorepos · serverless",
+    "tags": [
+      "Monorepos",
+      "AWS Lambda",
+      "SST / CDK",
+      "Service migration"
+    ],
+    "intro": "Architecture changes require more than selecting a technology. I helped move proposals into working software: explaining the tradeoffs, making concrete changes, and helping the team adopt them.",
+    "sections": [
+      {
+        "heading": "Legacy modernization",
+        "paragraphs": [
+          "I advocated retiring or replacing legacy PHP and Ruby applications and helped plan those transitions. The work included proposing newer application architectures and moving existing functionality toward newer services.",
+          "The transitions connected existing behavior to newer services, including file-management and notification functionality. Legacy modernization has been an ongoing effort rather than a single rewrite."
+        ]
+      },
+      {
+        "heading": "Repository consolidation",
+        "paragraphs": [
+          "I directly implemented frontend monorepo changes in 2020 and helped introduce the shared workspace to the team. Later, I helped drive the discussion and adoption of a backend monorepo in 2024, contributed service and infrastructure migrations, and worked on the local development setup.",
+          "The backend transition was shared work. Another engineer built the initial proof of concept; I contributed to the direction, evaluation, migration, and team guidance."
+        ]
+      },
+      {
+        "heading": "Serverless adoption",
+        "paragraphs": [
+          "I championed using serverless execution for suitable workloads, helped evaluate limitations and infrastructure choices, and contributed to implementation and operational integration. That included work on observability for Lambda-based execution and later service migrations.",
+          "The discussions involved real tradeoffs: migration effort, platform constraints, deployment practices, and what the team could maintain. My role included making the proposal concrete enough for others to evaluate and adopt."
+        ]
+      },
+      {
+        "heading": "Delivered change, measured carefully",
+        "paragraphs": [
+          "The delivered outcomes include shared repository and cloud tooling, service migrations, and development guidance for adoption. These establish concrete changes in how the systems are organized and delivered. Productivity gains and cost savings are not quantified here."
+        ]
+      }
+    ],
+    "outcomes": [
+      "Implemented frontend monorepo changes",
+      "Helped drive and execute backend consolidation",
+      "Championed serverless adoption and contributed integrations",
+      "Advocated and helped plan legacy service replacement"
+    ],
+    "evidence": "Private implementation history, migration records, and contemporaneous technical discussions were checked in October 2026. These support the roles described here. Company records and discussion excerpts remain private.",
+    "links": [
+      {
+        "label": "Product services and package work",
+        "url": "/work/services-packages.html"
+      }
+    ],
+    "takeaway": "A proposal becomes useful when people can evaluate it, adopt it, and keep working with it."
+  },
+  {
+    "slug": "ai-review",
+    "number": "06",
+    "category": "AI & engineering judgment",
+    "title": "A second model. A human decision.",
+    "short_title": "Making AI-assisted work reviewable.",
+    "summary": "An internal review workflow that uses risk tiers, another model’s challenge, and explicit human approval.",
+    "period": "Current focus · 2026",
+    "role": "Workflow designer & builder",
+    "scope": "Internal tooling · team use",
+    "tags": [
+      "AI agents",
+      "Cross-model review",
+      "Human approval"
+    ],
+    "intro": "AI can produce a change quickly. Deciding whether that change should ship is a different piece of engineering. I built an internal workflow to make that decision more explicit and reviewable.",
+    "sections": [
+      {
+        "heading": "The problem",
+        "paragraphs": [
+          "AI-assisted implementation adds another source of code to an existing development process. A plausible explanation from the implementing agent is not enough to establish correctness. Review needs to consider the actual change, the risk it introduces, and the evidence supporting it."
+        ]
+      },
+      {
+        "heading": "What I built",
+        "paragraphs": [
+          "I designed and implemented a workflow that assigns review effort according to risk, asks a different model to challenge proposed changes, and keeps consequential decisions with a person. The workflow is used by colleagues in product development.",
+          "The important boundary is responsibility: an agent can propose an implementation or raise a finding. A person still needs to decide what the evidence means and whether to accept the change."
+        ]
+      },
+      {
+        "heading": "How I use it",
+        "paragraphs": [
+          "Much of my recent implementation work is AI-assisted. I use agents to work through changes, use another model to challenge the result, inspect the diff, and run relevant checks. I remain responsible for the decisions I make and the changes I submit.",
+          "A second model is an additional review input, not proof that the first model is wrong or that the resulting code is safe. I want disagreements to lead back to the code, the requirements, and a checkable explanation."
+        ]
+      },
+      {
+        "heading": "What is established",
+        "paragraphs": [
+          "There is a working internal implementation and evidence of colleagues using it on product changes. That establishes use; it does not establish a measured reduction in defects or review time. I do not claim a quantified improvement in either."
+        ]
+      }
+    ],
+    "outcomes": [
+      "Built and put an internal review workflow into use",
+      "Made risk and human approval explicit",
+      "Added a separate model’s challenge to implementation review"
+    ],
+    "evidence": "Implementation history and evidence of colleague use were checked in private work records in October 2026. This is a generalized description; the internal tool, prompts, task records, and company code are not published here.",
+    "links": [
+      {
+        "label": "My review approach",
+        "url": "/#approach"
+      }
+    ],
+    "takeaway": "The goal is a defensible decision about a change, not agreement between two models."
+  },
+  {
+    "slug": "engineering-practice",
+    "number": "07",
+    "category": "Quality & developer experience",
+    "title": "Improve the work around the code.",
+    "short_title": "Better foundations for the next change.",
+    "summary": "Unit tests, development environments, release workflows, onboarding, and the guidance that helps a team use them.",
+    "period": "Selected work · 2017–present",
+    "role": "Hands-on contributor & technical advocate",
+    "scope": "Testing · development workflow · team enablement",
+    "tags": [
+      "Unit tests",
+      "Docker",
+      "Release workflows",
+      "Documentation"
+    ],
+    "intro": "Some of the most useful engineering work makes the next person’s change easier to understand and verify. I have contributed to that work through testing, development setup, documentation, and direct collaboration.",
+    "sections": [
+      {
+        "heading": "Make testing part of the work",
+        "paragraphs": [
+          "I repeatedly advocated writing unit tests alongside implementation, contributed tests in product changes, and pushed for unit testing to be part of engineering work samples during hiring.",
+          "That advocacy continued across years and different kinds of product work, including discussions of imports, transactions, and asynchronous behavior. Testing was part of both how I implemented changes and how I discussed engineering expectations."
+        ]
+      },
+      {
+        "heading": "Make the environment reproducible",
+        "paragraphs": [
+          "I built and introduced a Docker-based development setup for PHP and Node.js work, replacing an older Vagrant-based approach. I also contributed shared frontend tooling and later monorepo development setup.",
+          "A setup is only useful if people can use it. My contribution included communicating the changes and providing guidance for getting started."
+        ]
+      },
+      {
+        "heading": "Make releases easier to follow",
+        "paragraphs": [
+          "I simplified branch and release workflows for several applications and updated deployment documentation. This work changed how the team prepared and delivered changes, beyond the code inside an individual feature.",
+          "The contribution combined changes to the workflow with the guidance needed to use it, keeping release behavior understandable to colleagues."
+        ]
+      },
+      {
+        "heading": "Help people join the work",
+        "paragraphs": [
+          "I have coordinated engineering interviews, helped onboard developers, and written technical guidance. More recently, I have contributed documentation and instructions for AI-assisted development.",
+          "As an individual contributor, I help others through technical discussion, practical documentation, and direct support with their development work."
+        ]
+      }
+    ],
+    "outcomes": [
+      "Advocated and implemented unit tests over multiple years",
+      "Introduced a Docker-based development environment",
+      "Simplified release workflows and updated deployment guidance",
+      "Supported engineering interviews and developer onboarding"
+    ],
+    "evidence": "Contribution history, development announcements, and hiring and onboarding records were checked in October 2026. Descriptions are generalized; no colleague or candidate information is published.",
+    "links": [
+      {
+        "label": "Services and shared packages",
+        "url": "/work/services-packages.html"
+      }
+    ],
+    "takeaway": "A working setup, a useful test, and a clear explanation are all engineering contributions."
+  }
+]
